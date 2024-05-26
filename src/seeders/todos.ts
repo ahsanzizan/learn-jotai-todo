@@ -2,6 +2,11 @@ import { Todo } from "../types/todo";
 
 export const todosSeeder: Todo[] = [
   {
+    id: 0,
+    todoText: "Wake up",
+    isDone: false,
+  },
+  {
     id: 1,
     todoText: "Make bed",
     isDone: false,
